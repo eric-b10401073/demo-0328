@@ -1,0 +1,13 @@
+{
+  "name": "midterm-websited",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "eric-b10401073 <920314eric@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd backend && yarn start",
+    "build": "cd frontend && yarn build",
+    "install:all": "cd frontend && yarn install --production=false && cd ../backend && yarn"
+  }
+ 
+}
